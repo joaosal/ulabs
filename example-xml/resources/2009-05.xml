@@ -1,0 +1,2096 @@
+<activations>
+	  <activation timestamp="1243755928" type="phone">
+	    <account-number>2093</account-number>
+	    <device-id>6a0bb2da-c2e0-4a61-aceb-77c6cde4ae8f</device-id>
+	    <phone-number>9162787292</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243722202" type="phone">
+	    <account-number>1948</account-number>
+	    <device-id>d0cfada8-13f9-489d-b24c-7e86c527fd11</device-id>
+	    <phone-number>4158803921</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243721717" type="phone">
+	    <account-number>1905</account-number>
+	    <device-id>2d626fdb-d5a8-4261-8869-140d4af1caf3</device-id>
+	    <phone-number>7072587637</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243717335" type="phone">
+	    <account-number>3428</account-number>
+	    <device-id>4b06add8-f4b1-4582-99c0-bea91398b1d8</device-id>
+	    <phone-number>6504776505</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243704913" type="phone">
+	    <account-number>2277</account-number>
+	    <device-id>b8871aa5-464f-4353-9a72-07637f9df80d</device-id>
+	    <phone-number>5308672474</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243702856" type="phone">
+	    <account-number>2942</account-number>
+	    <device-id>6f462ec4-1281-49cd-bb64-734557053b1c</device-id>
+	    <phone-number>5108197461</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243692068" type="phone">
+	    <account-number>25061</account-number>
+	    <device-id>afc30814-3536-498a-876d-ecd9a8a4a134</device-id>
+	    <phone-number>7756434050</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243677547" type="phone">
+	    <account-number>1886</account-number>
+	    <device-id>8e2c369f-2c55-4e10-807a-4d723d36672c</device-id>
+	    <phone-number>5102955639</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243661935" type="phone">
+	    <account-number>14147</account-number>
+	    <device-id>8c963224-b66f-4757-8880-476ee7426744</device-id>
+	    <phone-number>4083210111</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243659388" type="phone">
+	    <account-number>76368</account-number>
+	    <device-id>50d6faf5-da03-4301-8bab-3bce2485424f</device-id>
+	    <phone-number>5418219362</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243659159" type="phone">
+	    <account-number>1078</account-number>
+	    <device-id>96779abe-7216-4441-92f9-b4a56c248a0e</device-id>
+	    <phone-number>9161624273</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243657013" type="phone">
+	    <account-number>529</account-number>
+	    <device-id>6616a813-c5e6-48ba-97d3-e246b918eac4</device-id>
+	    <phone-number>5108729404</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243655718" type="phone">
+	    <account-number>2093</account-number>
+	    <device-id>65531d4d-fe2b-48be-a62f-a23aff6c7f96</device-id>
+	    <phone-number>9162787292</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243653731" type="phone">
+	    <account-number>1253</account-number>
+	    <device-id>3eac9eb1-8e4b-48ec-a495-84ac92a1ba19</device-id>
+	    <phone-number>4085502365</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243649900" type="phone">
+	    <account-number>2863</account-number>
+	    <device-id>b3556eb2-4916-4835-a890-cf55971db9dd</device-id>
+	    <phone-number>2094370466</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243629517" type="phone">
+	    <account-number>575</account-number>
+	    <device-id>0dccec70-601c-48ea-9e9e-5a2ad84eddb3</device-id>
+	    <phone-number>2092934820</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243619946" type="phone">
+	    <account-number>114</account-number>
+	    <device-id>70b9af28-94bc-42c1-a1c4-7d4fe985bf42</device-id>
+	    <phone-number>5106048663</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243618819" type="phone">
+	    <account-number>28857</account-number>
+	    <device-id>d922dc81-ce67-4829-9f8d-3d08f8a61ce7</device-id>
+	    <phone-number>5590033473</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243600388" type="phone">
+	    <account-number>2686</account-number>
+	    <device-id>af4eb5d2-31b8-49bf-9f93-5c81e4a53616</device-id>
+	    <phone-number>9166261068</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243599165" type="phone">
+	    <account-number>714</account-number>
+	    <device-id>3bce1f3c-fd90-460f-9a9d-a6c54618d30a</device-id>
+	    <phone-number>9169028716</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243587376" type="phone">
+	    <account-number>2814</account-number>
+	    <device-id>438a5edd-02f7-4731-984e-16fa5677a3f0</device-id>
+	    <phone-number>9167388667</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243583219" type="phone">
+	    <account-number>91479</account-number>
+	    <device-id>38f27313-8e1e-41cd-b60a-2b395c2df901</device-id>
+	    <phone-number>6619052992</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243582160" type="phone">
+	    <account-number>23428</account-number>
+	    <device-id>791b6d24-eec3-482d-a9ac-dc90f4ee2482</device-id>
+	    <phone-number>5411345250</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243580955" type="phone">
+	    <account-number>2819</account-number>
+	    <device-id>bb07d157-d2f1-4490-be99-db2fcc1454fe</device-id>
+	    <phone-number>2093533973</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243580580" type="phone">
+	    <account-number>1434</account-number>
+	    <device-id>b27d0179-1a5a-43dc-bab6-bf0d57d34401</device-id>
+	    <phone-number>9166786220</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243573176" type="phone">
+	    <account-number>5655</account-number>
+	    <device-id>d6a93734-de07-4de9-bc9d-0f3205bd98d4</device-id>
+	    <phone-number>9167488925</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243571106" type="phone">
+	    <account-number>604</account-number>
+	    <device-id>47b48e55-bd6d-4e3f-bd8e-42ac097e0796</device-id>
+	    <phone-number>7073789721</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243568830" type="phone">
+	    <account-number>897</account-number>
+	    <device-id>82abd493-5f71-4a25-a053-6740026b7236</device-id>
+	    <phone-number>4082427383</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243567954" type="phone">
+	    <account-number>803</account-number>
+	    <device-id>43af60a4-5f5f-47b3-8811-495d766c970a</device-id>
+	    <phone-number>9163283069</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243564373" type="phone">
+	    <account-number>2550</account-number>
+	    <device-id>758524f9-c70e-4e39-868b-1b090d90a486</device-id>
+	    <phone-number>5301046860</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243562434" type="phone">
+	    <account-number>2208</account-number>
+	    <device-id>d39e668b-c598-4a26-a963-0cbd19c1cb79</device-id>
+	    <phone-number>5107301837</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243562234" type="phone">
+	    <account-number>13996</account-number>
+	    <device-id>ddd7a634-e01c-420b-8657-31e85e83e7df</device-id>
+	    <phone-number>4087894996</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243557055" type="phone">
+	    <account-number>98693</account-number>
+	    <device-id>2951ed6a-d9e5-4ea0-adc8-def3a69ce88b</device-id>
+	    <phone-number>6193125549</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243551175" type="phone">
+	    <account-number>32217</account-number>
+	    <device-id>d1a484f3-b740-4b8a-a2ad-6fc5324274e0</device-id>
+	    <phone-number>9286329425</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243541142" type="phone">
+	    <account-number>27796</account-number>
+	    <device-id>7fe3933b-a060-4d6b-b5da-6f8ae719a09c</device-id>
+	    <phone-number>7024382826</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243539333" type="phone">
+	    <account-number>1356</account-number>
+	    <device-id>1d54f12d-ab0f-4f8d-82a5-2b3c494646ac</device-id>
+	    <phone-number>2094436805</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243535245" type="phone">
+	    <account-number>51074</account-number>
+	    <device-id>4f7336e8-0c55-40ed-a232-0f33a1413a38</device-id>
+	    <phone-number>7606513767</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243518025" type="phone">
+	    <account-number>22242</account-number>
+	    <device-id>e0d19b12-bfe8-457a-ac9f-f6474679f597</device-id>
+	    <phone-number>6503709723</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243516060" type="phone">
+	    <account-number>1355</account-number>
+	    <device-id>65a3c395-bd0d-4dfe-9759-10f1bc1eef2f</device-id>
+	    <phone-number>2097927411</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243487517" type="phone">
+	    <account-number>1032</account-number>
+	    <device-id>cddb5eeb-28cd-4540-a89c-17f28c9ef523</device-id>
+	    <phone-number>2098267214</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243487118" type="phone">
+	    <account-number>2165</account-number>
+	    <device-id>8c390efc-4a78-4798-8bf0-256a77b63b86</device-id>
+	    <phone-number>9163317345</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243486471" type="phone">
+	    <account-number>10369</account-number>
+	    <device-id>25cb8ea3-0aae-4762-b8d7-9c9103bbd564</device-id>
+	    <phone-number>6267262719</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243485404" type="phone">
+	    <account-number>9240</account-number>
+	    <device-id>a208e830-8f60-4a61-b612-1458079396b5</device-id>
+	    <phone-number>2096715370</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243478249" type="phone">
+	    <account-number>2907</account-number>
+	    <device-id>7e177ffc-3ad7-4388-9831-dac2a92eb7f7</device-id>
+	    <phone-number>2098640822</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243470360" type="phone">
+	    <account-number>1623</account-number>
+	    <device-id>5ae80caa-85bf-4b60-bacf-5e814fa9006d</device-id>
+	    <phone-number>5104816831</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243469075" type="phone">
+	    <account-number>67510</account-number>
+	    <device-id>cf14a629-16aa-4c16-9734-2c17b2f0c66e</device-id>
+	    <phone-number>8058270051</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243467563" type="phone">
+	    <account-number>3169</account-number>
+	    <device-id>cfe594e9-4b70-47e7-9a9d-cf86cdcdf645</device-id>
+	    <phone-number>6502048512</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243467367" type="phone">
+	    <account-number>2618</account-number>
+	    <device-id>2ed2f1ac-1a46-4480-8439-620941d48266</device-id>
+	    <phone-number>5107793499</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243461704" type="phone">
+	    <account-number>3508</account-number>
+	    <device-id>97d3c143-1553-45ed-ae99-77a458f5786b</device-id>
+	    <phone-number>9169303057</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243452153" type="phone">
+	    <account-number>1134</account-number>
+	    <device-id>c8f2d45f-f851-4e20-a68a-86fb767d22c9</device-id>
+	    <phone-number>6503724778</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243444867" type="phone">
+	    <account-number>3338</account-number>
+	    <device-id>f155d6c3-cc8d-4370-a13b-f3a58b8606e6</device-id>
+	    <phone-number>4086693380</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243429860" type="phone">
+	    <account-number>3369</account-number>
+	    <device-id>d5f26227-bb2c-4083-99a7-98cca9a4e151</device-id>
+	    <phone-number>2092484283</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243424523" type="phone">
+	    <account-number>3363</account-number>
+	    <device-id>e9a0ccdd-1617-437e-83f9-e15190cb0754</device-id>
+	    <phone-number>7073098767</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243423978" type="phone">
+	    <account-number>74363</account-number>
+	    <device-id>23af0b7f-577b-4b16-be7f-2ce4fe95b38b</device-id>
+	    <phone-number>8189410471</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243401361" type="phone">
+	    <account-number>1203</account-number>
+	    <device-id>bc1a5128-cfa1-4a6a-a20b-6e42ebfd34a9</device-id>
+	    <phone-number>4158986308</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243389599" type="phone">
+	    <account-number>79352</account-number>
+	    <device-id>ccd9b847-6553-4cb7-a278-444f0f9f8e3d</device-id>
+	    <phone-number>7079553847</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243382947" type="phone">
+	    <account-number>4295</account-number>
+	    <device-id>b4f3bd4e-87ec-46c8-bb9d-00318349ce34</device-id>
+	    <phone-number>5032200800</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243370331" type="phone">
+	    <account-number>2496</account-number>
+	    <device-id>3cb50c34-9cb4-4737-a006-602527d2ba72</device-id>
+	    <phone-number>4081252051</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243363787" type="phone">
+	    <account-number>10676</account-number>
+	    <device-id>0a81db26-4925-43f2-9b0c-5f22465522de</device-id>
+	    <phone-number>5104879768</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243336157" type="phone">
+	    <account-number>1867</account-number>
+	    <device-id>e0fc7249-1eb5-4afc-bb46-b135e009f033</device-id>
+	    <phone-number>5109766983</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243321540" type="phone">
+	    <account-number>2970</account-number>
+	    <device-id>d8fa78fe-70ec-424f-a8d8-8c1d0e94eba4</device-id>
+	    <phone-number>4081658374</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243316023" type="phone">
+	    <account-number>3035</account-number>
+	    <device-id>04b1bc8b-25ad-4f18-96f6-0f3bed055841</device-id>
+	    <phone-number>7078715989</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243312881" type="phone">
+	    <account-number>1347</account-number>
+	    <device-id>29ba007d-b519-41fa-acc7-64ebd84aaf22</device-id>
+	    <phone-number>7070597047</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243308398" type="phone">
+	    <account-number>2246</account-number>
+	    <device-id>6791ea2a-41fc-4b3d-9f2f-a371c5418323</device-id>
+	    <phone-number>5104124144</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243308190" type="phone">
+	    <account-number>1447</account-number>
+	    <device-id>335627d6-d2b3-40bc-833c-b811dd757d61</device-id>
+	    <phone-number>4154559143</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243296775" type="phone">
+	    <account-number>1423</account-number>
+	    <device-id>af58e195-5aeb-47f8-9e97-d15da6ac4349</device-id>
+	    <phone-number>5102851249</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243290333" type="phone">
+	    <account-number>2190</account-number>
+	    <device-id>82cc0430-ca6a-4a78-91f4-2a049e016b0d</device-id>
+	    <phone-number>2095383840</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243262428" type="phone">
+	    <account-number>2073</account-number>
+	    <device-id>cc0aff39-da86-4415-b87c-9d6247472515</device-id>
+	    <phone-number>6502430066</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243253583" type="phone">
+	    <account-number>3105</account-number>
+	    <device-id>3f134ffc-0381-4afa-b220-cbc328554601</device-id>
+	    <phone-number>9167765114</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243236469" type="phone">
+	    <account-number>1090</account-number>
+	    <device-id>8478f8fb-2427-47cb-b1f9-316d75e0ecd5</device-id>
+	    <phone-number>5301595956</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243231506" type="phone">
+	    <account-number>859</account-number>
+	    <device-id>f7635bbf-fd95-4f95-9f44-377078a85921</device-id>
+	    <phone-number>6500138587</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243220856" type="phone">
+	    <account-number>1806</account-number>
+	    <device-id>fbec5e8a-ef23-4d8d-8c94-985fdc10361c</device-id>
+	    <phone-number>4159494346</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243219037" type="phone">
+	    <account-number>2667</account-number>
+	    <device-id>47105e6d-759d-40bb-9f06-b9f005693917</device-id>
+	    <phone-number>7072505210</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243213778" type="phone">
+	    <account-number>2539</account-number>
+	    <device-id>86e1f7f7-7df3-4b54-bc97-6af02ae13548</device-id>
+	    <phone-number>5105547766</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243199171" type="phone">
+	    <account-number>2312</account-number>
+	    <device-id>002430cc-04c0-489a-a1cc-6f812e748771</device-id>
+	    <phone-number>6503353654</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243199160" type="phone">
+	    <account-number>2000</account-number>
+	    <device-id>a3f06b39-acaf-4ef5-a771-dcf71b9a6508</device-id>
+	    <phone-number>6504853723</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243198801" type="phone">
+	    <account-number>3442</account-number>
+	    <device-id>e3f92039-111a-4a58-a5be-baf40e3cef7f</device-id>
+	    <phone-number>5105347338</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243196379" type="phone">
+	    <account-number>2267</account-number>
+	    <device-id>2f4aa731-4668-41c8-a81e-5301a7d15278</device-id>
+	    <phone-number>5106868024</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243195288" type="phone">
+	    <account-number>5102</account-number>
+	    <device-id>c01459a8-9307-4264-bf77-1814fc3cb3f2</device-id>
+	    <phone-number>6502912761</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243193968" type="phone">
+	    <account-number>3438</account-number>
+	    <device-id>9a8c20b9-63c9-4df4-aa21-5b2548d81ee6</device-id>
+	    <phone-number>5106486833</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243182637" type="phone">
+	    <account-number>1686</account-number>
+	    <device-id>573feaab-97a1-469f-b452-c7fb8c050ded</device-id>
+	    <phone-number>6508177585</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243179585" type="phone">
+	    <account-number>3056</account-number>
+	    <device-id>32a82bca-daac-4e71-9598-b91a3a6a9c78</device-id>
+	    <phone-number>9167723979</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243172456" type="phone">
+	    <account-number>1713</account-number>
+	    <device-id>0f4e748f-3d1a-4eb6-8e11-924325c8abc5</device-id>
+	    <phone-number>5102608935</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243156593" type="phone">
+	    <account-number>3484</account-number>
+	    <device-id>e2cf0065-4bda-440c-a44a-a89cd4fdb1be</device-id>
+	    <phone-number>5108354936</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243146806" type="phone">
+	    <account-number>2877</account-number>
+	    <device-id>27df1d92-4678-4ffc-b719-5cf0fb4d3ebb</device-id>
+	    <phone-number>7073077728</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243143296" type="phone">
+	    <account-number>18434</account-number>
+	    <device-id>38495048-0b7b-4dcd-ab46-a32d21dfeeab</device-id>
+	    <phone-number>5595844436</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243113163" type="phone">
+	    <account-number>3194</account-number>
+	    <device-id>e227e2cf-6a2b-4300-913d-58fe405d8cee</device-id>
+	    <phone-number>4088287350</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243106805" type="phone">
+	    <account-number>2527</account-number>
+	    <device-id>c68810e1-49f8-43dd-ba1b-2d49d56e5885</device-id>
+	    <phone-number>4081165567</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243098974" type="phone">
+	    <account-number>1343</account-number>
+	    <device-id>0f757f0b-e33e-4e09-bf4c-b7f4137a1229</device-id>
+	    <phone-number>6504216108</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243098502" type="phone">
+	    <account-number>32401</account-number>
+	    <device-id>4b90147a-485b-44d8-b1d9-a63d4d002905</device-id>
+	    <phone-number>9282751514</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243092652" type="phone">
+	    <account-number>1592</account-number>
+	    <device-id>0d05676f-c9ca-4675-aaf7-20d604463c41</device-id>
+	    <phone-number>6508325360</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243085054" type="phone">
+	    <account-number>3190</account-number>
+	    <device-id>a28786bd-eb70-42c2-8df2-aa0e43873e15</device-id>
+	    <phone-number>5101285323</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243081920" type="phone">
+	    <account-number>2780</account-number>
+	    <device-id>b3032ad8-ccb5-4b36-890c-eb2041d34fa6</device-id>
+	    <phone-number>4152351168</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1243056057" type="phone">
+	    <account-number>1285</account-number>
+	    <device-id>13a07654-cb34-4148-985e-50ab91ead16c</device-id>
+	    <phone-number>4156320683</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243052716" type="phone">
+	    <account-number>775</account-number>
+	    <device-id>52e59b09-85ef-4db9-ac9d-14e7535d1efc</device-id>
+	    <phone-number>4089768593</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1243044900" type="phone">
+	    <account-number>1099</account-number>
+	    <device-id>77fc2b9a-f63a-45ac-9b89-3e27febaec09</device-id>
+	    <phone-number>7072374215</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243044252" type="phone">
+	    <account-number>1071</account-number>
+	    <device-id>bdbd05d8-6c8c-43af-9d61-05a60eef4edf</device-id>
+	    <phone-number>5301543479</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1243041302" type="phone">
+	    <account-number>2790</account-number>
+	    <device-id>e61eb312-7b13-44a8-b07f-8fc8651f5571</device-id>
+	    <phone-number>7072061138</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243039018" type="phone">
+	    <account-number>54579</account-number>
+	    <device-id>c8e47593-c5de-43fa-a3fc-34b71a451ac4</device-id>
+	    <phone-number>9160136777</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243024585" type="phone">
+	    <account-number>1267</account-number>
+	    <device-id>34c7e58a-82d3-443e-ac69-706f3c0e9ee4</device-id>
+	    <phone-number>5303713688</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1243023112" type="phone">
+	    <account-number>493</account-number>
+	    <device-id>78542622-ca34-46ac-90dd-d8de9d1d1d64</device-id>
+	    <phone-number>9166131881</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243022433" type="phone">
+	    <account-number>1197</account-number>
+	    <device-id>843fb912-75cb-45d1-a4b5-0920c3ada234</device-id>
+	    <phone-number>5102822313</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1243017267" type="phone">
+	    <account-number>3229</account-number>
+	    <device-id>6d538b7d-cb26-4350-89aa-034980332a0a</device-id>
+	    <phone-number>7070705962</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243010956" type="phone">
+	    <account-number>672</account-number>
+	    <device-id>b7dc9546-654d-4999-bc7f-5bb9606293dc</device-id>
+	    <phone-number>5102315303</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1243005356" type="phone">
+	    <account-number>11686</account-number>
+	    <device-id>4dff071c-ca19-4f0d-8de0-3bf52322cc08</device-id>
+	    <phone-number>4157934704</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242995991" type="phone">
+	    <account-number>27729</account-number>
+	    <device-id>d80faaac-459c-4b25-80e2-7f7f623923cd</device-id>
+	    <phone-number>5304562233</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242989518" type="phone">
+	    <account-number>3177</account-number>
+	    <device-id>f4404080-0963-4542-8796-ca5181416fb3</device-id>
+	    <phone-number>9160276263</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242973282" type="phone">
+	    <account-number>694</account-number>
+	    <device-id>bbb75729-1ae4-4027-b24f-70f1eefca144</device-id>
+	    <phone-number>2098921433</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242971265" type="phone">
+	    <account-number>98840</account-number>
+	    <device-id>303f903e-84a0-4294-853a-9f7e76416442</device-id>
+	    <phone-number>5103781338</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242969723" type="phone">
+	    <account-number>1506</account-number>
+	    <device-id>531070e3-fe47-4572-9c2a-9f3a9f8ef635</device-id>
+	    <phone-number>6503553716</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242961832" type="phone">
+	    <account-number>2130</account-number>
+	    <device-id>2f2c58dc-4a5b-4f3d-ab62-30f94e75f360</device-id>
+	    <phone-number>2097169965</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242961026" type="phone">
+	    <account-number>1786</account-number>
+	    <device-id>06916d31-1ce7-4ae8-be8b-67defe39a94d</device-id>
+	    <phone-number>9166440523</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242960396" type="phone">
+	    <account-number>1451</account-number>
+	    <device-id>899e5cb9-3ffb-49aa-888c-d6d939e2cc71</device-id>
+	    <phone-number>6506285975</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242958405" type="phone">
+	    <account-number>679</account-number>
+	    <device-id>3b2e7243-c449-47f5-9871-7685e74de19e</device-id>
+	    <phone-number>4155277682</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242937143" type="phone">
+	    <account-number>1183</account-number>
+	    <device-id>de1ac4b9-7b1e-4469-8bdf-ad2b9c62f7a2</device-id>
+	    <phone-number>2098111425</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242920887" type="phone">
+	    <account-number>1413</account-number>
+	    <device-id>9c4fec9e-d0a4-40e8-946b-210a6bce5ead</device-id>
+	    <phone-number>4087259820</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242913910" type="phone">
+	    <account-number>2900</account-number>
+	    <device-id>fd00983f-67bf-4fe1-80cf-1fb322f64428</device-id>
+	    <phone-number>7070600415</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242898018" type="phone">
+	    <account-number>2396</account-number>
+	    <device-id>41024914-a258-4f50-b23a-5368e0735321</device-id>
+	    <phone-number>2097554793</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242897985" type="phone">
+	    <account-number>72740</account-number>
+	    <device-id>ee5b752d-e765-46fb-95dc-cdd103b4c446</device-id>
+	    <phone-number>6262318586</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242891997" type="phone">
+	    <account-number>16851</account-number>
+	    <device-id>0fd2e8bb-77f8-4438-9dbc-d103ca1aee04</device-id>
+	    <phone-number>9168738048</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242891954" type="phone">
+	    <account-number>2887</account-number>
+	    <device-id>64693aa4-c1fb-4028-b19a-1a840364b061</device-id>
+	    <phone-number>7079722278</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242880955" type="phone">
+	    <account-number>1326</account-number>
+	    <device-id>8df6cc14-e5d4-47c0-a7ae-5926b5d1a4f7</device-id>
+	    <phone-number>7072039552</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242880002" type="phone">
+	    <account-number>2676</account-number>
+	    <device-id>c1c82c9f-4a27-4a61-b700-942c14318556</device-id>
+	    <phone-number>5105941553</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242877490" type="phone">
+	    <account-number>2871</account-number>
+	    <device-id>00e1b23e-ef7f-4699-8e0b-098d077bc7b2</device-id>
+	    <phone-number>6502410061</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242875018" type="phone">
+	    <account-number>1275</account-number>
+	    <device-id>4faed0a1-f337-4d11-9411-8d853de48002</device-id>
+	    <phone-number>5105834706</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242865015" type="phone">
+	    <account-number>2384</account-number>
+	    <device-id>def0b369-142b-43e0-8ced-ff34217dd0ce</device-id>
+	    <phone-number>4082196357</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242861865" type="phone">
+	    <account-number>1412</account-number>
+	    <device-id>5894ec19-0197-488a-960b-87d7da8d5f83</device-id>
+	    <phone-number>6508926004</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242852681" type="phone">
+	    <account-number>27109</account-number>
+	    <device-id>44a5d8bf-c7b6-4593-976a-b290aa8c807f</device-id>
+	    <phone-number>4153758585</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242851552" type="phone">
+	    <account-number>2230</account-number>
+	    <device-id>71cf1d9f-3199-4403-b791-f3c764fca056</device-id>
+	    <phone-number>6500731804</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242838563" type="phone">
+	    <account-number>1845</account-number>
+	    <device-id>2c69420f-a8d1-40c0-8700-a1910a98229b</device-id>
+	    <phone-number>2094234165</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242834325" type="phone">
+	    <account-number>1002</account-number>
+	    <device-id>b81ec487-d902-407d-ac87-3977419ac90f</device-id>
+	    <phone-number>6505981435</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242832102" type="phone">
+	    <account-number>2375</account-number>
+	    <device-id>75b36d02-9586-4187-b8b4-fca4256c2fda</device-id>
+	    <phone-number>7070715994</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242831499" type="phone">
+	    <account-number>721</account-number>
+	    <device-id>414f5e86-e36c-4ed4-8143-72519832c00a</device-id>
+	    <phone-number>7074902207</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242824458" type="phone">
+	    <account-number>2283</account-number>
+	    <device-id>5af82e84-c80d-4587-b7b0-4016db6b4f2d</device-id>
+	    <phone-number>9161498644</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242815717" type="phone">
+	    <account-number>63591</account-number>
+	    <device-id>b2fa2f68-bb5f-486c-b726-10fbf9f1e871</device-id>
+	    <phone-number>9281231374</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242812918" type="phone">
+	    <account-number>693</account-number>
+	    <device-id>32ac564f-a134-4950-91be-c96ffa575f45</device-id>
+	    <phone-number>5106163151</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242810300" type="phone">
+	    <account-number>75959</account-number>
+	    <device-id>b4674dfe-f92c-4354-808c-76f7d0d45f67</device-id>
+	    <phone-number>7029441009</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242810023" type="phone">
+	    <account-number>2775</account-number>
+	    <device-id>8b6e6005-9040-49f1-8758-b2244b621627</device-id>
+	    <phone-number>9169949904</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242801425" type="phone">
+	    <account-number>849</account-number>
+	    <device-id>60465b08-2010-4aea-8cbc-2a24d8396f40</device-id>
+	    <phone-number>9163944581</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242801274" type="phone">
+	    <account-number>854</account-number>
+	    <device-id>e4d72af8-46b3-49cf-9ef2-cc58ce66d29f</device-id>
+	    <phone-number>9165888076</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242799556" type="phone">
+	    <account-number>1820</account-number>
+	    <device-id>a7bd2e6a-f869-489a-9d29-a7c6be19e8e3</device-id>
+	    <phone-number>7079641351</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242793298" type="phone">
+	    <account-number>822</account-number>
+	    <device-id>ccf6e665-63cc-4b62-a660-3a4354f853a5</device-id>
+	    <phone-number>2099114068</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242781465" type="phone">
+	    <account-number>1144</account-number>
+	    <device-id>8869c74b-340a-4f3c-9953-71552881d24a</device-id>
+	    <phone-number>9163382404</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242779182" type="phone">
+	    <account-number>2885</account-number>
+	    <device-id>c34ae1d4-d5b7-4515-be1f-b001c4f51638</device-id>
+	    <phone-number>7070504873</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242772154" type="phone">
+	    <account-number>2570</account-number>
+	    <device-id>c67b9a7b-d2cb-4fec-afad-59373f73f8ea</device-id>
+	    <phone-number>2093707297</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242768375" type="phone">
+	    <account-number>1564</account-number>
+	    <device-id>c4cab523-92af-4554-907c-ba4491685d98</device-id>
+	    <phone-number>9165150725</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242767220" type="phone">
+	    <account-number>543</account-number>
+	    <device-id>8238dd0d-a248-43b6-8bcc-e028eb5f156c</device-id>
+	    <phone-number>5304866007</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242758689" type="phone">
+	    <account-number>40151</account-number>
+	    <device-id>2ba7ab5c-9d8d-4774-867b-4efbb910c770</device-id>
+	    <phone-number>4246555116</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242751898" type="phone">
+	    <account-number>1568</account-number>
+	    <device-id>9ec64090-d975-4ffb-9cdd-fa76a6935150</device-id>
+	    <phone-number>9167876754</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242750247" type="phone">
+	    <account-number>932</account-number>
+	    <device-id>959a46f0-8095-45be-8837-667caec819c7</device-id>
+	    <phone-number>6508967911</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242748781" type="phone">
+	    <account-number>2259</account-number>
+	    <device-id>564d9789-1143-48cb-9846-4a73d2dcd7ff</device-id>
+	    <phone-number>7074992159</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242743497" type="phone">
+	    <account-number>832</account-number>
+	    <device-id>9412b0b3-6d65-4b1c-b7b3-590dd961b89f</device-id>
+	    <phone-number>4151546570</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242737659" type="phone">
+	    <account-number>1094</account-number>
+	    <device-id>042045d1-1921-4bd7-84b1-61c960f077a6</device-id>
+	    <phone-number>5109182640</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242718695" type="phone">
+	    <account-number>19295</account-number>
+	    <device-id>1d5620f2-e612-455f-9456-f9382d616b16</device-id>
+	    <phone-number>7029448204</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242673055" type="phone">
+	    <account-number>2210</account-number>
+	    <device-id>342152b4-7683-4dc1-a209-a5729432c7b1</device-id>
+	    <phone-number>5303467241</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242671528" type="phone">
+	    <account-number>3001</account-number>
+	    <device-id>81870bc5-b927-4edf-8698-ea24fd706542</device-id>
+	    <phone-number>5307258633</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242669906" type="phone">
+	    <account-number>661</account-number>
+	    <device-id>f896322c-4049-4ae0-ac3d-23985899b3f0</device-id>
+	    <phone-number>5108801639</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242659495" type="phone">
+	    <account-number>3398</account-number>
+	    <device-id>c990fce0-ff62-4829-974c-1300b546746a</device-id>
+	    <phone-number>9161107525</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242654688" type="phone">
+	    <account-number>1588</account-number>
+	    <device-id>e34ec7ea-9634-4a3c-8227-aaf0412b4b89</device-id>
+	    <phone-number>4159663933</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242653591" type="phone">
+	    <account-number>2739</account-number>
+	    <device-id>32d5bd6b-7346-401e-8504-63fcd7ec033d</device-id>
+	    <phone-number>6507295995</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242642048" type="phone">
+	    <account-number>572</account-number>
+	    <device-id>e99e3dba-3393-4824-ba06-19a83b903709</device-id>
+	    <phone-number>9169129328</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242634887" type="phone">
+	    <account-number>67501</account-number>
+	    <device-id>ba384d98-83d7-4b15-a071-77f096686f63</device-id>
+	    <phone-number>9092864316</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242626183" type="phone">
+	    <account-number>18564</account-number>
+	    <device-id>7e41ba64-a2e8-4b9d-a8f4-8c2922608655</device-id>
+	    <phone-number>6612221944</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242616066" type="phone">
+	    <account-number>2531</account-number>
+	    <device-id>06ee750e-06c2-4ddf-a0f0-f9f2010cc25a</device-id>
+	    <phone-number>9167530402</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242607736" type="phone">
+	    <account-number>2242</account-number>
+	    <device-id>b271144f-9792-43a8-8331-113ed19535d2</device-id>
+	    <phone-number>7071884189</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242588316" type="phone">
+	    <account-number>43771</account-number>
+	    <device-id>8854b180-06c5-4ad7-a934-f4081c4742bb</device-id>
+	    <phone-number>5594686051</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242579450" type="phone">
+	    <account-number>2111</account-number>
+	    <device-id>18db4828-4743-4427-bd58-b5d9da3c9c62</device-id>
+	    <phone-number>7076320096</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242567285" type="phone">
+	    <account-number>1678</account-number>
+	    <device-id>94cd8b65-8c9b-4fb3-851b-4ec1155c32eb</device-id>
+	    <phone-number>7073294007</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242563480" type="phone">
+	    <account-number>1348</account-number>
+	    <device-id>5f505cb8-f583-4074-b372-3641b8d90fb0</device-id>
+	    <phone-number>9168617314</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242562098" type="phone">
+	    <account-number>2136</account-number>
+	    <device-id>6b9ad058-16f4-482b-886c-1ed7ad39c239</device-id>
+	    <phone-number>5100106180</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242546142" type="phone">
+	    <account-number>3037</account-number>
+	    <device-id>e53d98b5-b195-4886-9454-49442c0eff95</device-id>
+	    <phone-number>5104185018</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242528826" type="phone">
+	    <account-number>2127</account-number>
+	    <device-id>41650fa3-c3ec-4b43-a8e6-25d4319e2cd7</device-id>
+	    <phone-number>5100250237</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242517682" type="phone">
+	    <account-number>2424</account-number>
+	    <device-id>d8b9bfdb-fba4-49a4-8ccd-fc3e0b6c23dc</device-id>
+	    <phone-number>6501819541</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242511133" type="phone">
+	    <account-number>1443</account-number>
+	    <device-id>f4854678-ceb6-43cc-8b86-a0909e68e0dd</device-id>
+	    <phone-number>4153962109</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242501905" type="phone">
+	    <account-number>735</account-number>
+	    <device-id>61e3e5c8-4d19-4f42-b8f4-d6c0fdf386c1</device-id>
+	    <phone-number>7070689069</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242492251" type="phone">
+	    <account-number>9901</account-number>
+	    <device-id>117c4ac6-b914-44cf-b905-cfd03bf31421</device-id>
+	    <phone-number>2090086532</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242483589" type="phone">
+	    <account-number>2294</account-number>
+	    <device-id>8cccdade-8450-4497-8a9f-fbe78ec0f3ae</device-id>
+	    <phone-number>6502678061</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242480395" type="phone">
+	    <account-number>92669</account-number>
+	    <device-id>b50becc8-48ba-46b3-a763-56fd8315f23e</device-id>
+	    <phone-number>5103033391</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242475464" type="phone">
+	    <account-number>1446</account-number>
+	    <device-id>9e2a5f49-bb87-4725-b1fc-6c208bed28a6</device-id>
+	    <phone-number>6503498543</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242471881" type="phone">
+	    <account-number>966</account-number>
+	    <device-id>8d7a05a8-d7ee-410a-8f0f-247527c8bca9</device-id>
+	    <phone-number>2097723502</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242467801" type="phone">
+	    <account-number>2729</account-number>
+	    <device-id>3862b9af-91b1-4b7e-89f0-54402a7df454</device-id>
+	    <phone-number>4088201215</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242454349" type="phone">
+	    <account-number>1539</account-number>
+	    <device-id>9b490f5d-d902-4e14-81d5-8388e4be468a</device-id>
+	    <phone-number>9164473115</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242447648" type="phone">
+	    <account-number>118601</account-number>
+	    <device-id>4ed8f50d-9998-4ac5-b14c-f2c01a50e26e</device-id>
+	    <phone-number>8182379017</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242428012" type="phone">
+	    <account-number>962</account-number>
+	    <device-id>14cc0732-c6a5-4867-a3d6-dfbb937e80f3</device-id>
+	    <phone-number>4151275476</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242424161" type="phone">
+	    <account-number>2817</account-number>
+	    <device-id>ae3110bd-7c8b-4250-abec-071ba7465397</device-id>
+	    <phone-number>7073186977</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242418988" type="phone">
+	    <account-number>1418</account-number>
+	    <device-id>88968193-5470-419d-b92d-3666a80e8004</device-id>
+	    <phone-number>5304908510</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242414642" type="phone">
+	    <account-number>2880</account-number>
+	    <device-id>85e5b5cc-779c-4aec-8fba-3e978e8513aa</device-id>
+	    <phone-number>9160263283</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242405885" type="phone">
+	    <account-number>65880</account-number>
+	    <device-id>a75f501d-f702-45d3-9dd5-e0f24124fac3</device-id>
+	    <phone-number>3103398073</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242404194" type="phone">
+	    <account-number>625</account-number>
+	    <device-id>a7ff86cb-2378-485a-bb57-38a85150ec6c</device-id>
+	    <phone-number>9165006486</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242392378" type="phone">
+	    <account-number>3272</account-number>
+	    <device-id>a86e149a-b165-4206-9247-23fd2c1c9ffd</device-id>
+	    <phone-number>5103471504</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242386699" type="phone">
+	    <account-number>677</account-number>
+	    <device-id>8cc9a347-0027-4ea3-9af3-3586f3498649</device-id>
+	    <phone-number>4157265112</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242378478" type="phone">
+	    <account-number>2101</account-number>
+	    <device-id>a38a58b9-d8c3-45d5-a4fd-41e6d36d69f0</device-id>
+	    <phone-number>4159599629</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242374402" type="phone">
+	    <account-number>1249</account-number>
+	    <device-id>658f01d7-e3e3-435a-9bea-4ea997d9ea2a</device-id>
+	    <phone-number>9167067631</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242358716" type="phone">
+	    <account-number>2911</account-number>
+	    <device-id>4cba4127-0a6a-4757-921e-1da5bc308484</device-id>
+	    <phone-number>5308101624</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242349140" type="phone">
+	    <account-number>64796</account-number>
+	    <device-id>c77abcea-e73b-44a4-b04a-8248853b39bd</device-id>
+	    <phone-number>4154800832</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242347569" type="phone">
+	    <account-number>15073</account-number>
+	    <device-id>b2618c7e-65ef-4030-873e-5099c9f16c0b</device-id>
+	    <phone-number>3108451611</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242345399" type="phone">
+	    <account-number>3332</account-number>
+	    <device-id>720efb1b-22d5-47be-af98-ebb7d4fe4193</device-id>
+	    <phone-number>4083071681</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242334909" type="phone">
+	    <account-number>2275</account-number>
+	    <device-id>48d20116-97bc-4805-bead-babdcbd0c237</device-id>
+	    <phone-number>7076193096</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242332220" type="phone">
+	    <account-number>811</account-number>
+	    <device-id>2e5be0b9-262d-403d-be4c-56a0dda9c51b</device-id>
+	    <phone-number>2090166816</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242331768" type="phone">
+	    <account-number>62728</account-number>
+	    <device-id>9ce6e95a-bf4b-4674-9fde-3136c80486ff</device-id>
+	    <phone-number>5628199744</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242318835" type="phone">
+	    <account-number>1373</account-number>
+	    <device-id>92f28f48-197a-4e29-b108-6037855def8c</device-id>
+	    <phone-number>6500974021</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242313963" type="phone">
+	    <account-number>1303</account-number>
+	    <device-id>8d092f4b-629b-4e41-82ab-2b11166a1311</device-id>
+	    <phone-number>9167008433</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242299750" type="phone">
+	    <account-number>945</account-number>
+	    <device-id>16339cfe-3441-4d0f-aea5-223f03b0f8a6</device-id>
+	    <phone-number>5106695686</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242277725" type="phone">
+	    <account-number>3364</account-number>
+	    <device-id>6059c1c4-66e4-40cb-9458-c572d4de29bb</device-id>
+	    <phone-number>7071764200</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242273587" type="phone">
+	    <account-number>15139</account-number>
+	    <device-id>8679ee18-3b9b-49b8-abd2-979d3874c327</device-id>
+	    <phone-number>6190654434</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242259054" type="phone">
+	    <account-number>30108</account-number>
+	    <device-id>c1f18cd4-20a3-496d-99f3-9e7654b9f57a</device-id>
+	    <phone-number>5419288161</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242252106" type="phone">
+	    <account-number>1149</account-number>
+	    <device-id>8c48810c-9e3b-463f-91fe-97ee9c88bb10</device-id>
+	    <phone-number>6500382457</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242231774" type="phone">
+	    <account-number>733</account-number>
+	    <device-id>346dbe24-580d-494d-810d-607d6262d958</device-id>
+	    <phone-number>2093594118</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242223788" type="phone">
+	    <account-number>2718</account-number>
+	    <device-id>66ec541d-e356-4c5e-a464-4dc849cd629e</device-id>
+	    <phone-number>5103938301</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242217813" type="phone">
+	    <account-number>81992</account-number>
+	    <device-id>6c4e3f98-a02b-42c0-8ba2-2884239ebad8</device-id>
+	    <phone-number>4082589723</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242214305" type="phone">
+	    <account-number>82499</account-number>
+	    <device-id>a759902a-63a7-4113-8c69-f0166151addf</device-id>
+	    <phone-number>5413248078</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242210630" type="phone">
+	    <account-number>561</account-number>
+	    <device-id>b5a817c1-4ee4-48a4-9121-e0f642a13317</device-id>
+	    <phone-number>4157572358</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242201839" type="phone">
+	    <account-number>1512</account-number>
+	    <device-id>45aa2d04-6f69-47f7-b9bf-5e75219df910</device-id>
+	    <phone-number>9164958748</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242186015" type="phone">
+	    <account-number>3289</account-number>
+	    <device-id>f373ff5f-6cf6-4b29-ac24-cd418c9f4c21</device-id>
+	    <phone-number>5105325339</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242183211" type="phone">
+	    <account-number>23234</account-number>
+	    <device-id>e6c886b2-0585-4526-827b-36acc4706792</device-id>
+	    <phone-number>8181412023</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242181890" type="phone">
+	    <account-number>27783</account-number>
+	    <device-id>4f6d4c83-cace-4624-8555-3aca8d89ef08</device-id>
+	    <phone-number>5628457723</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242160661" type="phone">
+	    <account-number>2547</account-number>
+	    <device-id>02358d4a-3dee-4437-b96b-5805ce491d71</device-id>
+	    <phone-number>4083862003</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242158470" type="phone">
+	    <account-number>638</account-number>
+	    <device-id>0cb746d2-f87f-456d-ad2e-ccf87c666934</device-id>
+	    <phone-number>4154596325</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242156726" type="phone">
+	    <account-number>2183</account-number>
+	    <device-id>596c3ec4-6a1e-4366-8dde-78e0e3ef0b96</device-id>
+	    <phone-number>7072176320</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242127994" type="phone">
+	    <account-number>498</account-number>
+	    <device-id>7aee750b-c917-4880-8f3c-46b234164bbd</device-id>
+	    <phone-number>9160272648</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242121299" type="phone">
+	    <account-number>2651</account-number>
+	    <device-id>d59af358-977e-4b3e-9e2c-58d7abdca919</device-id>
+	    <phone-number>5104709561</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242110210" type="phone">
+	    <account-number>5945</account-number>
+	    <device-id>7621414b-8012-457a-98ba-37c5d172ba2b</device-id>
+	    <phone-number>6194876061</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1242104624" type="phone">
+	    <account-number>2170</account-number>
+	    <device-id>7f2e0a15-b599-481e-8ded-569e7a3ba15f</device-id>
+	    <phone-number>7072199848</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1242081942" type="phone">
+	    <account-number>78775</account-number>
+	    <device-id>b8801a0f-ea13-4d71-b033-3dba10dbaec6</device-id>
+	    <phone-number>7758237571</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1242059371" type="phone">
+	    <account-number>95344</account-number>
+	    <device-id>2c8c8656-a595-4d2f-8672-d34a3211ab3c</device-id>
+	    <phone-number>9289890048</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242031018" type="phone">
+	    <account-number>3296</account-number>
+	    <device-id>9fb865e6-801a-40d5-8c44-90efd0974be2</device-id>
+	    <phone-number>9160517632</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1242020651" type="phone">
+	    <account-number>2147</account-number>
+	    <device-id>73130c98-48b9-4c01-8d71-d1f335a7ca93</device-id>
+	    <phone-number>5105435175</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1242011625" type="phone">
+	    <account-number>2053</account-number>
+	    <device-id>d519f9f6-c830-43bd-b75b-fb02bae91e2b</device-id>
+	    <phone-number>5103546393</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1242005667" type="phone">
+	    <account-number>909</account-number>
+	    <device-id>6734fe6a-45db-46bf-8676-e419f020dc62</device-id>
+	    <phone-number>5300303727</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241981784" type="phone">
+	    <account-number>1730</account-number>
+	    <device-id>766235b9-f677-4f49-bac2-fa00a9d869d7</device-id>
+	    <phone-number>6507388687</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241975809" type="phone">
+	    <account-number>1763</account-number>
+	    <device-id>e1eeb7da-ea2b-46a9-88ff-f1cb80424378</device-id>
+	    <phone-number>4089705981</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241959842" type="phone">
+	    <account-number>1992</account-number>
+	    <device-id>4ca88968-0649-4d6f-adce-1a3d0ced7168</device-id>
+	    <phone-number>5107938336</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241959762" type="phone">
+	    <account-number>1642</account-number>
+	    <device-id>aaeb3ee1-1513-4450-9cf8-2b43d2331d35</device-id>
+	    <phone-number>6502511255</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241958373" type="phone">
+	    <account-number>517</account-number>
+	    <device-id>1f1dcfd1-e4a3-423b-ab7e-9c6a6dbb1587</device-id>
+	    <phone-number>5305113734</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241952895" type="phone">
+	    <account-number>2106</account-number>
+	    <device-id>566e91b2-56a5-4521-8e30-651848479d40</device-id>
+	    <phone-number>2090804480</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241950064" type="phone">
+	    <account-number>1826</account-number>
+	    <device-id>508bab63-6668-4aa1-b6e1-b7b55bafe761</device-id>
+	    <phone-number>9167581297</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241933075" type="phone">
+	    <account-number>2693</account-number>
+	    <device-id>a50b2ac7-4342-4324-879f-9541ba5db260</device-id>
+	    <phone-number>6506095779</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241924523" type="phone">
+	    <account-number>1764</account-number>
+	    <device-id>2ef5e25d-42d0-4ff1-819f-f85a419bdab0</device-id>
+	    <phone-number>5109884238</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241920917" type="phone">
+	    <account-number>2341</account-number>
+	    <device-id>4c1b8e59-1675-40ad-be78-db40b6f65329</device-id>
+	    <phone-number>9162843284</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241880675" type="phone">
+	    <account-number>7771</account-number>
+	    <device-id>c2a54e67-7cef-4858-83ec-019b44da74bb</device-id>
+	    <phone-number>6575488346</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241875664" type="phone">
+	    <account-number>3012</account-number>
+	    <device-id>44df599c-cef1-4b9e-a52f-11596681e1c2</device-id>
+	    <phone-number>9161364343</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241870349" type="phone">
+	    <account-number>19108</account-number>
+	    <device-id>093254fe-7a47-4d91-b41e-8f67833af55c</device-id>
+	    <phone-number>6266890807</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241868039" type="phone">
+	    <account-number>1366</account-number>
+	    <device-id>ab9fc87d-136c-4d27-becd-39092713b431</device-id>
+	    <phone-number>5107403759</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241852225" type="phone">
+	    <account-number>3014</account-number>
+	    <device-id>7801aad1-490b-4f25-bc22-57f7e9ec8493</device-id>
+	    <phone-number>6507736069</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241848252" type="phone">
+	    <account-number>1560</account-number>
+	    <device-id>28020bc9-ebcf-4e6e-b2a8-39b539dfea4b</device-id>
+	    <phone-number>5100088991</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241831752" type="phone">
+	    <account-number>1287</account-number>
+	    <device-id>b131df9d-ff6f-4c83-b2d8-8785948cb014</device-id>
+	    <phone-number>5309926905</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241828261" type="phone">
+	    <account-number>1036</account-number>
+	    <device-id>af212c5f-21a9-4edf-bd84-0eaee570d378</device-id>
+	    <phone-number>5107058566</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241827986" type="phone">
+	    <account-number>3152</account-number>
+	    <device-id>81b4a639-51aa-457b-bda6-d1741968d96f</device-id>
+	    <phone-number>2092489281</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241812070" type="phone">
+	    <account-number>24780</account-number>
+	    <device-id>018cdba1-bee1-4a3a-bc15-a5de33ea178c</device-id>
+	    <phone-number>7753673999</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241790272" type="phone">
+	    <account-number>1643</account-number>
+	    <device-id>ce681e1b-0d46-49e8-8cbc-40f6451db410</device-id>
+	    <phone-number>9163857508</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241765394" type="phone">
+	    <account-number>1409</account-number>
+	    <device-id>cf08d60a-3749-48c0-9ecc-c5b53d21ceec</device-id>
+	    <phone-number>4087689271</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241755445" type="phone">
+	    <account-number>602</account-number>
+	    <device-id>66282d10-4824-44e8-9393-d7315b734d01</device-id>
+	    <phone-number>4082711259</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241750630" type="phone">
+	    <account-number>3350</account-number>
+	    <device-id>d39c5056-3ad7-4ca0-b45b-e889ea1f907a</device-id>
+	    <phone-number>7071741550</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241740295" type="phone">
+	    <account-number>2490</account-number>
+	    <device-id>c7d97c20-f590-4aa9-957a-1cf211d8bad4</device-id>
+	    <phone-number>7078734711</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241736280" type="phone">
+	    <account-number>100321</account-number>
+	    <device-id>f858b77b-f773-451b-992c-bdaddc48bed0</device-id>
+	    <phone-number>7758333139</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241731600" type="phone">
+	    <account-number>653</account-number>
+	    <device-id>7141aeec-8e51-4e00-84b4-3a4e39459dee</device-id>
+	    <phone-number>7077959463</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241726232" type="phone">
+	    <account-number>609</account-number>
+	    <device-id>d859c5f0-d495-440c-913a-dce77028d583</device-id>
+	    <phone-number>2092606517</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241725829" type="phone">
+	    <account-number>26824</account-number>
+	    <device-id>df5a40df-28af-4e80-8c26-6439fc49fda4</device-id>
+	    <phone-number>9167198997</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241724103" type="phone">
+	    <account-number>2141</account-number>
+	    <device-id>9ebfe3ba-0c2c-4402-b13e-7d0a06244893</device-id>
+	    <phone-number>5108386027</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241718350" type="phone">
+	    <account-number>1130</account-number>
+	    <device-id>e533febd-fc22-4b24-bc4f-d3570bf314cf</device-id>
+	    <phone-number>6504290797</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241685676" type="phone">
+	    <account-number>2855</account-number>
+	    <device-id>7e004d74-131f-4928-8d1b-b7bf0d45df2b</device-id>
+	    <phone-number>9165111027</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241669191" type="phone">
+	    <account-number>1555</account-number>
+	    <device-id>176c1b1b-62a6-4456-95ce-7395400ca370</device-id>
+	    <phone-number>2093412996</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241661418" type="phone">
+	    <account-number>2612</account-number>
+	    <device-id>8ab1ba02-79c9-40eb-b0a7-358d2794ea33</device-id>
+	    <phone-number>7071021607</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241647626" type="phone">
+	    <account-number>2860</account-number>
+	    <device-id>4a49079e-81be-422f-a470-38a8531285f5</device-id>
+	    <phone-number>6504777970</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241646797" type="phone">
+	    <account-number>50798</account-number>
+	    <device-id>df9a2282-3bea-4ef0-87ce-d6d031c570a8</device-id>
+	    <phone-number>7023720285</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241644759" type="phone">
+	    <account-number>17070</account-number>
+	    <device-id>8bdb63c7-cd52-42df-9eba-eab0ace6a776</device-id>
+	    <phone-number>5625058466</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241632759" type="phone">
+	    <account-number>4032</account-number>
+	    <device-id>2ed423bc-ff71-47d6-9f19-e2e7f0405b46</device-id>
+	    <phone-number>5036139825</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241624812" type="phone">
+	    <account-number>686</account-number>
+	    <device-id>da5006ef-471b-4ab9-a1c2-5635c388a4ba</device-id>
+	    <phone-number>5103435132</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241617115" type="phone">
+	    <account-number>590</account-number>
+	    <device-id>6f210621-69a2-4d96-84c4-28df77b31059</device-id>
+	    <phone-number>9162123941</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241614773" type="phone">
+	    <account-number>651</account-number>
+	    <device-id>0a485e9d-5a99-407b-a105-3e6d49ad4730</device-id>
+	    <phone-number>4089523069</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241605167" type="phone">
+	    <account-number>47638</account-number>
+	    <device-id>07cc8369-5a0c-46c6-8fbb-b53d01172c2e</device-id>
+	    <phone-number>6505370496</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241600300" type="phone">
+	    <account-number>25166</account-number>
+	    <device-id>b8af1a1b-855b-43e3-85a1-2b6f49d33a7d</device-id>
+	    <phone-number>6577894044</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241599362" type="phone">
+	    <account-number>3197</account-number>
+	    <device-id>74ff66f8-0220-4145-aa99-2b846d0121f2</device-id>
+	    <phone-number>5108801832</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241596651" type="phone">
+	    <account-number>1755</account-number>
+	    <device-id>bebe2b22-4539-4265-a76f-75ad7af84316</device-id>
+	    <phone-number>9163955921</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241592730" type="phone">
+	    <account-number>41787</account-number>
+	    <device-id>61f1b6cd-d8a2-475e-8692-21152a589fd6</device-id>
+	    <phone-number>5102113434</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241586018" type="phone">
+	    <account-number>1458</account-number>
+	    <device-id>45e019aa-1868-422d-a07e-bf23d64fb5bc</device-id>
+	    <phone-number>5103643724</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241583898" type="phone">
+	    <account-number>3453</account-number>
+	    <device-id>b11eaca9-c4e2-4d69-b4ae-251dcd0a589e</device-id>
+	    <phone-number>4087701321</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241583310" type="phone">
+	    <account-number>2738</account-number>
+	    <device-id>b5d07c28-e958-4438-b754-3945c31895b2</device-id>
+	    <phone-number>6507747340</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241567243" type="phone">
+	    <account-number>1013</account-number>
+	    <device-id>cd367992-cb86-4e84-b140-585eb6322d6f</device-id>
+	    <phone-number>9167871810</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241547116" type="phone">
+	    <account-number>509</account-number>
+	    <device-id>2bc78e25-9edf-4adc-9db3-c804242e08f6</device-id>
+	    <phone-number>6506671491</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241536942" type="phone">
+	    <account-number>2919</account-number>
+	    <device-id>722292ca-7028-4116-8014-8bbbc9bad078</device-id>
+	    <phone-number>7078845537</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241535318" type="phone">
+	    <account-number>755</account-number>
+	    <device-id>ec0bcbb2-7f98-46cf-9379-6d6781359a0c</device-id>
+	    <phone-number>4158442382</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241534522" type="phone">
+	    <account-number>2626</account-number>
+	    <device-id>5f36aa37-05c8-4839-8be0-ea41b0c2c41e</device-id>
+	    <phone-number>7078061203</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241534412" type="phone">
+	    <account-number>1449</account-number>
+	    <device-id>842bf0de-43bb-4484-bf21-073160152a6c</device-id>
+	    <phone-number>7070360800</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241524668" type="phone">
+	    <account-number>6405</account-number>
+	    <device-id>fccb3164-9a33-49b6-ba26-bd31c57cf215</device-id>
+	    <phone-number>8054983094</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241520744" type="phone">
+	    <account-number>1123</account-number>
+	    <device-id>031fa181-bde0-470a-ac06-7e3b88431516</device-id>
+	    <phone-number>5302704430</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241518553" type="phone">
+	    <account-number>856</account-number>
+	    <device-id>e53f9c38-c0d9-4395-9fff-2157aedbc1e1</device-id>
+	    <phone-number>5104511054</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241514640" type="phone">
+	    <account-number>3314</account-number>
+	    <device-id>c64034f7-b776-4c1f-9b98-b56830886683</device-id>
+	    <phone-number>2092667975</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241512277" type="phone">
+	    <account-number>3110</account-number>
+	    <device-id>3959edde-5103-4582-b3f0-27a142491d62</device-id>
+	    <phone-number>9168524474</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241510225" type="phone">
+	    <account-number>3179</account-number>
+	    <device-id>24e5e431-db64-4767-b0d6-138ec102f439</device-id>
+	    <phone-number>2091919419</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241509843" type="phone">
+	    <account-number>50350</account-number>
+	    <device-id>1a526446-c129-4257-bb35-11011eecd59c</device-id>
+	    <phone-number>5033870825</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241505282" type="phone">
+	    <account-number>940</account-number>
+	    <device-id>f926b9ea-5daa-4ec9-a4de-1b2dab29dcf4</device-id>
+	    <phone-number>6508473594</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241495968" type="phone">
+	    <account-number>75256</account-number>
+	    <device-id>4189f2c6-f136-4288-bdaa-085537029d49</device-id>
+	    <phone-number>6501082021</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241480909" type="phone">
+	    <account-number>1796</account-number>
+	    <device-id>20bd745a-6bc1-44ee-8bb4-f5a792489180</device-id>
+	    <phone-number>4085531087</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241477275" type="phone">
+	    <account-number>3120</account-number>
+	    <device-id>0c6e4c19-cabc-4866-a3f5-4c2df0bcedef</device-id>
+	    <phone-number>5106810440</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241472978" type="phone">
+	    <account-number>1689</account-number>
+	    <device-id>7078e693-8845-46f7-b9bc-e406c0b6893e</device-id>
+	    <phone-number>4082214778</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241467236" type="phone">
+	    <account-number>2745</account-number>
+	    <device-id>e66216a7-9ded-42fd-849a-74bfc228c060</device-id>
+	    <phone-number>4084640949</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241453930" type="phone">
+	    <account-number>55695</account-number>
+	    <device-id>d9320c10-6352-4e22-80a5-7dd8b3c1751d</device-id>
+	    <phone-number>9163455547</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241446628" type="phone">
+	    <account-number>2884</account-number>
+	    <device-id>d7f07d4b-639a-4d98-859d-1ccdf45319db</device-id>
+	    <phone-number>5301305247</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241440557" type="phone">
+	    <account-number>1016</account-number>
+	    <device-id>b6c19945-60ed-4ebf-a3eb-6495bc8cc499</device-id>
+	    <phone-number>9163277435</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241427133" type="phone">
+	    <account-number>25528</account-number>
+	    <device-id>8aaeb122-fa1b-4ade-9608-074823163748</device-id>
+	    <phone-number>5034521126</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241419909" type="phone">
+	    <account-number>28519</account-number>
+	    <device-id>65663b9e-e649-4eab-b203-412dd482f4fb</device-id>
+	    <phone-number>5417763707</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241415608" type="phone">
+	    <account-number>3019</account-number>
+	    <device-id>68120225-60a3-4240-9ae9-105c9fdb6ee9</device-id>
+	    <phone-number>9160190879</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241407988" type="phone">
+	    <account-number>28402</account-number>
+	    <device-id>7627add0-4c54-4776-b936-7f03fcd0d3c8</device-id>
+	    <phone-number>6190006840</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241401906" type="phone">
+	    <account-number>292</account-number>
+	    <device-id>5e561027-167c-4a4c-a327-16ce05e6494c</device-id>
+	    <phone-number>4159862789</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241372751" type="phone">
+	    <account-number>14480</account-number>
+	    <device-id>aa0c0833-69d9-42a1-9a3c-110d21342b20</device-id>
+	    <phone-number>5410677062</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241351753" type="phone">
+	    <account-number>2107</account-number>
+	    <device-id>0be0918e-c39f-498b-b3ca-c16a6b646744</device-id>
+	    <phone-number>5109865231</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241351193" type="phone">
+	    <account-number>2070</account-number>
+	    <device-id>08fbb538-b0a7-4c2e-a79f-8c9de70bfe61</device-id>
+	    <phone-number>5100199952</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241340043" type="phone">
+	    <account-number>1926</account-number>
+	    <device-id>658a8e77-6dc4-4830-b381-5c997ca44c3e</device-id>
+	    <phone-number>2099285640</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241334593" type="phone">
+	    <account-number>2991</account-number>
+	    <device-id>c98c08e5-0f22-4e28-8cf0-8e2dd9080e14</device-id>
+	    <phone-number>2097510399</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241317648" type="phone">
+	    <account-number>3068</account-number>
+	    <device-id>4865dd09-aa76-4dbb-acf7-ad558f63a2d6</device-id>
+	    <phone-number>6508701626</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241311290" type="phone">
+	    <account-number>3264</account-number>
+	    <device-id>2b20245d-8b1e-4cfd-8b7f-5de4fd22f4a6</device-id>
+	    <phone-number>9160296866</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241302585" type="phone">
+	    <account-number>1122</account-number>
+	    <device-id>a8183f06-2f6a-4562-ab14-a70b41d0eba9</device-id>
+	    <phone-number>6501410048</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241299794" type="phone">
+	    <account-number>64574</account-number>
+	    <device-id>a6a1119e-a19f-4d91-826c-708c6fd4b88f</device-id>
+	    <phone-number>5030319972</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241297651" type="phone">
+	    <account-number>3208</account-number>
+	    <device-id>b82538d4-f5bc-440c-95cb-cb011f812ff0</device-id>
+	    <phone-number>4158070376</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241282698" type="phone">
+	    <account-number>13833</account-number>
+	    <device-id>1b48235e-7f2d-42a2-aee8-c1f50a74f90c</device-id>
+	    <phone-number>4156588824</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241282321" type="phone">
+	    <account-number>9403</account-number>
+	    <device-id>7c5b6e04-6589-4ac0-b2f7-48a8f794f930</device-id>
+	    <phone-number>7076149018</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241277258" type="phone">
+	    <account-number>2501</account-number>
+	    <device-id>9d5c9fa9-e7f3-47d1-9548-1bb2d0ad3ce1</device-id>
+	    <phone-number>4155862173</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241266020" type="phone">
+	    <account-number>488</account-number>
+	    <device-id>1d1f73e7-348e-4849-9a4d-861667eda95b</device-id>
+	    <phone-number>7079144581</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241265350" type="phone">
+	    <account-number>2635</account-number>
+	    <device-id>e8b516af-d3ef-4747-94b5-089a5c71a1af</device-id>
+	    <phone-number>9167049304</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241259227" type="phone">
+	    <account-number>2901</account-number>
+	    <device-id>bc33b82a-de18-48f9-80fe-2ab953630874</device-id>
+	    <phone-number>4154307212</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241252141" type="phone">
+	    <account-number>3463</account-number>
+	    <device-id>7b6d82be-f5c4-4264-b4f5-2a18787de32b</device-id>
+	    <phone-number>9161296718</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241252047" type="phone">
+	    <account-number>640</account-number>
+	    <device-id>ec9795eb-7aa9-45a5-9ef9-7a6659ab89d6</device-id>
+	    <phone-number>5101453338</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241244742" type="phone">
+	    <account-number>2188</account-number>
+	    <device-id>edfab9ca-1ce7-4e58-b246-03fedc5ee558</device-id>
+	    <phone-number>5106252063</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241243968" type="phone">
+	    <account-number>3239</account-number>
+	    <device-id>4dbe4cef-917e-46df-8899-c2837108e802</device-id>
+	    <phone-number>9169485795</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241230039" type="phone">
+	    <account-number>2602</account-number>
+	    <device-id>033b11e6-29b8-4e39-a860-ef302cb64d2f</device-id>
+	    <phone-number>5102031260</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241221714" type="phone">
+	    <account-number>903</account-number>
+	    <device-id>a75b2054-7a26-4bae-b421-ba4f5b920453</device-id>
+	    <phone-number>7078333843</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241221355" type="phone">
+	    <account-number>2582</account-number>
+	    <device-id>e86fc46f-e8a9-4a4e-982e-d67dfa83d86c</device-id>
+	    <phone-number>5302054676</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241220390" type="phone">
+	    <account-number>1969</account-number>
+	    <device-id>89367676-0a67-4ca4-8449-30f38ab39679</device-id>
+	    <phone-number>5303376118</phone-number>
+	    <model>Titanic 1000</model>
+	  </activation>
+	  		  <activation timestamp="1241216205" type="phone">
+	    <account-number>63076</account-number>
+	    <device-id>8398c533-3bd9-4101-8399-1b420e2274f3</device-id>
+	    <phone-number>8182181167</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241208425" type="phone">
+	    <account-number>109600</account-number>
+	    <device-id>c9b13098-b3ef-42c3-a6b3-42f422541af2</device-id>
+	    <phone-number>4159872165</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241197050" type="phone">
+	    <account-number>7551</account-number>
+	    <device-id>75b66257-392c-4516-b275-e9f431fa0835</device-id>
+	    <phone-number>5620771396</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241183898" type="phone">
+	    <account-number>2349</account-number>
+	    <device-id>e7290f9e-33e3-433e-ae86-1967abd0a6d6</device-id>
+	    <phone-number>6508121925</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241167918" type="phone">
+	    <account-number>2997</account-number>
+	    <device-id>b05f244c-c7c8-4f31-a1f7-4fb1b0f36c91</device-id>
+	    <phone-number>2095986092</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241134109" type="phone">
+	    <account-number>70076</account-number>
+	    <device-id>d91e934d-7731-4ba8-919d-df91ec005df7</device-id>
+	    <phone-number>8058514265</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241130439" type="phone">
+	    <account-number>1358</account-number>
+	    <device-id>2f79f241-1810-4bfd-8e66-fd32472da834</device-id>
+	    <phone-number>2098631674</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241126813" type="phone">
+	    <account-number>1543</account-number>
+	    <device-id>c8afe3f5-9048-45ef-b507-b34f98a3fd82</device-id>
+	    <phone-number>6509022415</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241126779" type="phone">
+	    <account-number>27342</account-number>
+	    <device-id>172f9869-e73d-4410-9240-99ca624190cb</device-id>
+	    <phone-number>8054826399</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241126751" type="phone">
+	    <account-number>1690</account-number>
+	    <device-id>ee0764e5-93e7-42cb-be14-dcd54d0e1b67</device-id>
+	    <phone-number>4081490349</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241124150" type="phone">
+	    <account-number>2414</account-number>
+	    <device-id>657c7e77-c1ea-4f7d-b0a3-303187e69b82</device-id>
+	    <phone-number>9160338439</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241109525" type="phone">
+	    <account-number>2322</account-number>
+	    <device-id>1fa2babf-79c8-4931-9a22-1b1e0784537d</device-id>
+	    <phone-number>4086708885</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241107097" type="phone">
+	    <account-number>1390</account-number>
+	    <device-id>7cb77062-7e32-4699-a44f-29902d309673</device-id>
+	    <phone-number>6501864594</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241101063" type="phone">
+	    <account-number>1052</account-number>
+	    <device-id>e3c07c2b-0edd-4736-a082-261098ae1bae</device-id>
+	    <phone-number>9169322347</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241096371" type="phone">
+	    <account-number>2679</account-number>
+	    <device-id>dd29b2be-022e-4d20-8228-8b1f51efced6</device-id>
+	    <phone-number>9164499037</phone-number>
+	    <model>iFruit 1</model>
+	  </activation>
+	  		  <activation timestamp="1241092884" type="phone">
+	    <account-number>1557</account-number>
+	    <device-id>188af9f6-8ef1-4de8-8d2b-8880eccd23b0</device-id>
+	    <phone-number>2091688244</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  		  <activation timestamp="1241092622" type="phone">
+	    <account-number>2123</account-number>
+	    <device-id>1325cfca-23e7-4649-86f9-592b0c7869dd</device-id>
+	    <phone-number>5107712624</phone-number>
+	    <model>Sorrento F01L</model>
+	  </activation>
+	  		  <activation timestamp="1241089221" type="phone">
+	    <account-number>857</account-number>
+	    <device-id>7bf1df50-9c35-4922-b8c5-69621a31ea1d</device-id>
+	    <phone-number>5106065786</phone-number>
+	    <model>Sorrento F00L</model>
+	  </activation>
+	  		  <activation timestamp="1241082575" type="phone">
+	    <account-number>64597</account-number>
+	    <device-id>c06c866b-95e4-469d-b76c-7e4a195e75ac</device-id>
+	    <phone-number>6269983581</phone-number>
+	    <model>Titanic 1100</model>
+	  </activation>
+	  		  <activation timestamp="1241081514" type="phone">
+	    <account-number>49874</account-number>
+	    <device-id>50ce71e9-18aa-45ed-806f-c25ab8ca82b7</device-id>
+	    <phone-number>9160953770</phone-number>
+	    <model>MeeToo 1.0</model>
+	  </activation>
+	  	</activations>
