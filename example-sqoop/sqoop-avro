@@ -1,0 +1,6 @@
+sqoop import --verbose --connect 'jdbc:mysql://localhost;dualcore' --username root --password cloudera --table employees --as-avrodatafile --target-dir /user/root/raw/employees --split-by emp_id
+
+CREATE EXTERNAL TABLE employees
+ STORED AS AVRO
+ LOCATION '/user/root/raw/employees'
+ TBLPROPERTIES ('avro.schema.url'='hdfs:///user/root/schema/employees.avsc');

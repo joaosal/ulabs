@@ -1,0 +1,686 @@
+$ wget -O airlines_parquet.tar.gz https://www.dropbox.com/s/20ycbvhqsy2uaqv/airlines_parquet.tar.gz
+...
+Length: 1245204740 (1.2G) [application/octet-stream]
+Saving to: “airlines_parquet.tar.gz”
+ 
+2015-08-12 17:14:24 (23.6 MB/s) - “airlines_parquet.tar.gz” saved [1245204740/1245204740]
+ 
+$ tar xvzf airlines_parquet.tar.gz
+airlines_parquet/
+airlines_parquet/93459d994898a9ba-77674173b331fa9a_2073981944_data.0.parq
+airlines_parquet/93459d994898a9ba-77674173b331fa99_1555718317_data.1.parq
+airlines_parquet/93459d994898a9ba-77674173b331fa99_1555718317_data.0.parq
+airlines_parquet/93459d994898a9ba-77674173b331fa96_2118228804_data.0.parq
+airlines_parquet/93459d994898a9ba-77674173b331fa97_574780876_data.0.parq
+airlines_parquet/93459d994898a9ba-77674173b331fa96_2118228804_data.1.parq
+airlines_parquet/93459d994898a9ba-77674173b331fa98_1194408366_data.0.parq
+airlines_parquet/93459d994898a9ba-77674173b331fa9b_1413430552_data.0.parq
+$ cd airlines_parquet/
+$ du -kch *.parq
+253M  93459d994898a9ba-77674173b331fa96_2118228804_data.0.parq
+65M 93459d994898a9ba-77674173b331fa96_2118228804_data.1.parq
+156M  93459d994898a9ba-77674173b331fa97_574780876_data.0.parq
+240M  93459d994898a9ba-77674173b331fa98_1194408366_data.0.parq
+253M  93459d994898a9ba-77674173b331fa99_1555718317_data.0.parq
+16M 93459d994898a9ba-77674173b331fa99_1555718317_data.1.parq
+177M  93459d994898a9ba-77674173b331fa9a_2073981944_data.0.parq
+213M  93459d994898a9ba-77674173b331fa9b_1413430552_data.0.parq
+1.4G  total
+
+$ hdfs fs -mkdir -p /user/hdfs/staging/airlines
+$ hdfs fs -Ddfs.block.size=256m -put *.parq /user/hdfs/staging/airlines
+$ hdfs fs -ls /user/hdfs/staging
+Found 1 items
+drwxrwxrwx   - hdfs supergroup          0 2015-08-12 13:52 /user/impala/staging/airlines
+$ hdfs fs -ls /user/hdfs/staging/airlines
+
+
+$ impala-shell
+[localhost:21000] > create database airline_data;
+[localhost:21000] > use airline_data;
+[localhost:21000] > create external table airlines_external
+                  > like parquet 'hdfs:///user/hdfs/staging/airlines/93459d994898a9ba-77674173b331fa96_2118228804_data.0.parq'
+                  > stored as parquet location 'hdfs:///user/hdfs/staging/airlines';
+
+[localhost:21000] > show table stats airlines_external;
++-------+--------+--------+--------------+-------------------+---------+-------------------+
+| #Rows | #Files | Size   | Bytes Cached | Cache Replication | Format  | Incremental stats |
++-------+--------+--------+--------------+-------------------+---------+-------------------+
+| -1    | 8      | 1.34GB | NOT CACHED   | NOT CACHED        | PARQUET | false             |
++-------+--------+--------+--------------+-------------------+---------+-------------------+
+[localhost:21000] > show files in airlines_external;
++----------------------------------------------------------------------------------------+----------+-----------+
+| path                                                                                   | size     | partition |
++----------------------------------------------------------------------------------------+----------+-----------+
+| /user/impala/staging/airlines/93459d994898a9ba-77674173b331fa96_2118228804_data.0.parq | 252.83MB |           |
+| /user/impala/staging/airlines/93459d994898a9ba-77674173b331fa96_2118228804_data.1.parq | 64.42MB  |           |
+| /user/impala/staging/airlines/93459d994898a9ba-77674173b331fa97_574780876_data.0.parq  | 155.03MB |           |
+| /user/impala/staging/airlines/93459d994898a9ba-77674173b331fa98_1194408366_data.0.parq | 239.95MB |           |
+| /user/impala/staging/airlines/93459d994898a9ba-77674173b331fa99_1555718317_data.0.parq | 252.90MB |           |
+| /user/impala/staging/airlines/93459d994898a9ba-77674173b331fa99_1555718317_data.1.parq | 15.89MB  |           |
+| /user/impala/staging/airlines/93459d994898a9ba-77674173b331fa9a_2073981944_data.0.parq | 176.92MB |           |
+| /user/impala/staging/airlines/93459d994898a9ba-77674173b331fa9b_1413430552_data.0.parq | 212.47MB |           |
++----------------------------------------------------------------------------------------+----------+-----------+
+[localhost:21000] > describe airlines_external;
++---------------------+--------+---------------------------------------------------+
+| name                | type   | comment                                           |
++---------------------+--------+---------------------------------------------------+
+| year                | int    | inferred from: optional int32 year                |
+| month               | int    | inferred from: optional int32 month               |
+| day                 | int    | inferred from: optional int32 day                 |
+| dayofweek           | int    | inferred from: optional int32 dayofweek           |
+| dep_time            | int    | inferred from: optional int32 dep_time            |
+| crs_dep_time        | int    | inferred from: optional int32 crs_dep_time        |
+| arr_time            | int    | inferred from: optional int32 arr_time            |
+| crs_arr_time        | int    | inferred from: optional int32 crs_arr_time        |
+| carrier             | string | inferred from: optional binary carrier            |
+| flight_num          | int    | inferred from: optional int32 flight_num          |
+| tail_num            | int    | inferred from: optional int32 tail_num            |
+| actual_elapsed_time | int    | inferred from: optional int32 actual_elapsed_time |
+| crs_elapsed_time    | int    | inferred from: optional int32 crs_elapsed_time    |
+| airtime             | int    | inferred from: optional int32 airtime             |
+| arrdelay            | int    | inferred from: optional int32 arrdelay            |
+| depdelay            | int    | inferred from: optional int32 depdelay            |
+| origin              | string | inferred from: optional binary origin             |
+| dest                | string | inferred from: optional binary dest               |
+| distance            | int    | inferred from: optional int32 distance            |
+| taxi_in             | int    | inferred from: optional int32 taxi_in             |
+| taxi_out            | int    | inferred from: optional int32 taxi_out            |
+| cancelled           | int    | inferred from: optional int32 cancelled           |
+| cancellation_code   | string | inferred from: optional binary cancellation_code  |
+| diverted            | int    | inferred from: optional int32 diverted            |
+| carrier_delay       | int    | inferred from: optional int32 carrier_delay       |
+| weather_delay       | int    | inferred from: optional int32 weather_delay       |
+| nas_delay           | int    | inferred from: optional int32 nas_delay           |
+| security_delay      | int    | inferred from: optional int32 security_delay      |
+| late_aircraft_delay | int    | inferred from: optional int32 late_aircraft_delay |
++---------------------+--------+---------------------------------------------------+
+[localhost:21000] > desc formatted airlines_external;
++------------------------------+-------------------------------
+| name                         | type
++------------------------------+-------------------------------
+...
+| # Detailed Table Information | NULL
+| Database:                    | airline_data
+| Owner:                       | jrussell
+...
+| Location:                    | /user/impala/staging/airlines
+| Table Type:                  | EXTERNAL_TABLE
+...
+| # Storage Information        | NULL
+| SerDe Library:               | parquet.hive.serde.ParquetHiveSerDe
+| InputFormat:                 | parquet.hive.DeprecatedParquetInputFormat
+| OutputFormat:                | parquet.hive.DeprecatedParquetOutputFormat
+...
+
+
+[localhost:21000] > select count(*) from airlines_external;
++-----------+
+| count(*)  |
++-----------+
+| 123534969 |
++-----------+
+Fetched 1 row(s) in 1.32s
+[localhost:21000] > select count(*) / 1e6 as 'millions of rows' from airlines_external;
++------------------+
+| millions of rows |
++------------------+
+| 123.534969       |
++------------------+
+Fetched 1 row(s) in 1.24s
+
+
+[localhost:21000] > select ndv(carrier), ndv(flight_num), ndv(tail_num),
+                  >   ndv(origin), ndv(dest) from airlines_external;
++--------------+-----------------+---------------+-------------+-----------+
+| ndv(carrier) | ndv(flight_num) | ndv(tail_num) | ndv(origin) | ndv(dest) |
++--------------+-----------------+---------------+-------------+-----------+
+| 29           | 9086            | 3             | 340         | 347       |
++--------------+-----------------+---------------+-------------+-----------+
+[localhost:21000] > select tail_num, count(*) as howmany from airlines_external
+                  >   group by tail_num;
++----------+-----------+
+| tail_num | howmany   |
++----------+-----------+
+| 715      | 1         |
+| 0        | 406405    |
+| 112      | 6562      |
+| NULL     | 123122001 |
++----------+-----------+
+Fetched 1 row(s) in 5.18s
+[localhost:21000] > select distinct dest from airlines_external
+                  >   where dest not in (select origin from airlines_external);
++------+
+| dest |
++------+
+| LBF  |
+| CBM  |
+| RCA  |
+| SKA  |
+| LAR  |
++------+
+Fetched 5 row(s) in 39.64s
+[localhost:21000] > select distinct dest from airlines_external
+                  >   where dest not in (select distinct origin from airlines_external);
++------+
+| dest |
++------+
+| LBF  |
+| RCA  |
+| CBM  |
+| SKA  |
+| LAR  |
++------+
+Fetched 5 row(s) in 5.59s
+[localhost:21000] > select distinct origin from airlines_external
+                  >   where origin not in (select distinct dest from airlines_external);
+Fetched 0 row(s) in 5.37s
+
+[localhost:21000] > select year, sum(airtime) from airlines_external
+                  >   group by year order by year desc;
++------+--------------+
+| year | sum(airtime) |
++------+--------------+
+| 2008 | 713050445    |
+| 2007 | 748015545    |
+| 2006 | 720372850    |
+| 2005 | 708204026    |
+| 2004 | 714276973    |
+| 2003 | 665706940    |
+| 2002 | 549761849    |
+| 2001 | 590867745    |
+| 2000 | 583537683    |
+| 1999 | 561219227    |
+| 1998 | 538050663    |
+| 1997 | 536991229    |
+| 1996 | 519440044    |
+| 1995 | 513364265    |
+| 1994 | NULL         |
+| 1993 | NULL         |
+| 1992 | NULL         |
+| 1991 | NULL         |
+| 1990 | NULL         |
+| 1989 | NULL         |
+| 1988 | NULL         |
+| 1987 | NULL         |
++------+--------------+
+
+
+
+
+[localhost:21000] > show create table airlines_external;
++-------------------------------------------------------------------------------------
+| result
++-------------------------------------------------------------------------------------
+| CREATE EXTERNAL TABLE airline_data.airlines_external (
+|   year INT COMMENT 'inferred from: optional int32 year',
+|   month INT COMMENT 'inferred from: optional int32 month',
+|   day INT COMMENT 'inferred from: optional int32 day',
+|   dayofweek INT COMMENT 'inferred from: optional int32 dayofweek',
+|   dep_time INT COMMENT 'inferred from: optional int32 dep_time',
+|   crs_dep_time INT COMMENT 'inferred from: optional int32 crs_dep_time',
+|   arr_time INT COMMENT 'inferred from: optional int32 arr_time',
+|   crs_arr_time INT COMMENT 'inferred from: optional int32 crs_arr_time',
+|   carrier STRING COMMENT 'inferred from: optional binary carrier',
+|   flight_num INT COMMENT 'inferred from: optional int32 flight_num',
+|   tail_num INT COMMENT 'inferred from: optional int32 tail_num',
+|   actual_elapsed_time INT COMMENT 'inferred from: optional int32 actual_elapsed_time',
+|   crs_elapsed_time INT COMMENT 'inferred from: optional int32 crs_elapsed_time',
+|   airtime INT COMMENT 'inferred from: optional int32 airtime',
+|   arrdelay INT COMMENT 'inferred from: optional int32 arrdelay',
+|   depdelay INT COMMENT 'inferred from: optional int32 depdelay',
+|   origin STRING COMMENT 'inferred from: optional binary origin',
+|   dest STRING COMMENT 'inferred from: optional binary dest',
+|   distince INT COMMENT 'inferred from: optional int32 distince',
+|   taxi_in INT COMMENT 'inferred from: optional int32 taxi_in',
+|   taxi_out INT COMMENT 'inferred from: optional int32 taxi_out',
+|   cancelled INT COMMENT 'inferred from: optional int32 cancelled',
+|   cancellation_code STRING COMMENT 'inferred from: optional binary cancellation_code',
+|   diverted INT COMMENT 'inferred from: optional int32 diverted',
+|   carrier_delay INT COMMENT 'inferred from: optional int32 carrier_delay',
+|   weather_delay INT COMMENT 'inferred from: optional int32 weather_delay',
+|   nas_delay INT COMMENT 'inferred from: optional int32 nas_delay',
+|   security_delay INT COMMENT 'inferred from: optional int32 security_delay',
+|   late_aircraft_delay INT COMMENT 'inferred from: optional int32 late_aircraft_delay'
+| )
+| STORED AS PARQUET
+| LOCATION 'hdfs://a1730.halxg.cloudera.com:8020/user/impala/staging/airlines'
+| TBLPROPERTIES ('numFiles'='0', 'COLUMN_STATS_ACCURATE'='false',
+|   'transient_lastDdlTime'='1439425228', 'numRows'='-1', 'totalSize'='0',
+|   'rawDataSize'='-1')
++-------------------------------------------------------------------------------------
+Fetched 1 row(s) in 0.03s
+[localhost:21000] > quit;
+
+
+
+[localhost:21000] > show create table airlines_external;
++-------------------------------------------------------------------------------------
+| result
++-------------------------------------------------------------------------------------
+| CREATE EXTERNAL TABLE airline_data.airlines_external (
+|   year INT COMMENT 'inferred from: optional int32 year',
+|   month INT COMMENT 'inferred from: optional int32 month',
+|   day INT COMMENT 'inferred from: optional int32 day',
+|   dayofweek INT COMMENT 'inferred from: optional int32 dayofweek',
+|   dep_time INT COMMENT 'inferred from: optional int32 dep_time',
+|   crs_dep_time INT COMMENT 'inferred from: optional int32 crs_dep_time',
+|   arr_time INT COMMENT 'inferred from: optional int32 arr_time',
+|   crs_arr_time INT COMMENT 'inferred from: optional int32 crs_arr_time',
+|   carrier STRING COMMENT 'inferred from: optional binary carrier',
+|   flight_num INT COMMENT 'inferred from: optional int32 flight_num',
+|   tail_num INT COMMENT 'inferred from: optional int32 tail_num',
+|   actual_elapsed_time INT COMMENT 'inferred from: optional int32 actual_elapsed_time',
+|   crs_elapsed_time INT COMMENT 'inferred from: optional int32 crs_elapsed_time',
+|   airtime INT COMMENT 'inferred from: optional int32 airtime',
+|   arrdelay INT COMMENT 'inferred from: optional int32 arrdelay',
+|   depdelay INT COMMENT 'inferred from: optional int32 depdelay',
+|   origin STRING COMMENT 'inferred from: optional binary origin',
+|   dest STRING COMMENT 'inferred from: optional binary dest',
+|   distince INT COMMENT 'inferred from: optional int32 distince',
+|   taxi_in INT COMMENT 'inferred from: optional int32 taxi_in',
+|   taxi_out INT COMMENT 'inferred from: optional int32 taxi_out',
+|   cancelled INT COMMENT 'inferred from: optional int32 cancelled',
+|   cancellation_code STRING COMMENT 'inferred from: optional binary cancellation_code',
+|   diverted INT COMMENT 'inferred from: optional int32 diverted',
+|   carrier_delay INT COMMENT 'inferred from: optional int32 carrier_delay',
+|   weather_delay INT COMMENT 'inferred from: optional int32 weather_delay',
+|   nas_delay INT COMMENT 'inferred from: optional int32 nas_delay',
+|   security_delay INT COMMENT 'inferred from: optional int32 security_delay',
+|   late_aircraft_delay INT COMMENT 'inferred from: optional int32 late_aircraft_delay'
+| )
+| STORED AS PARQUET
+| LOCATION 'hdfs://a1730.halxg.cloudera.com:8020/user/impala/staging/airlines'
+| TBLPROPERTIES ('numFiles'='0', 'COLUMN_STATS_ACCURATE'='false',
+|   'transient_lastDdlTime'='1439425228', 'numRows'='-1', 'totalSize'='0',
+|   'rawDataSize'='-1')
++-------------------------------------------------------------------------------------
+Fetched 1 row(s) in 0.03s
+
+
+
+[localhost:21000] > CREATE TABLE airline_data.airlines
+                  > (
+                  >   month INT,
+                  >   day INT,
+                  >   dayofweek INT,
+                  >   dep_time INT,
+                  >   crs_dep_time INT,
+                  >   arr_time INT,
+                  >   crs_arr_time INT,
+                  >   carrier STRING,
+                  >   flight_num INT,
+                  >   actual_elapsed_time INT,
+                  >   crs_elapsed_time INT,
+                  >   airtime INT,
+                  >   arrdelay INT,
+                  >   depdelay INT,
+                  >   origin STRING,
+                  >   dest STRING,
+                  >   distance INT,
+                  >   taxi_in INT,
+                  >   taxi_out INT,
+                  >   cancelled INT,
+                  >   cancellation_code STRING,
+                  >   diverted INT,
+                  >   carrier_delay INT,
+                  >   weather_delay INT,
+                  >   nas_delay INT,
+                  >   security_delay INT,
+                  >   late_aircraft_delay INT
+                  > )
+                  > STORED AS PARQUET
+                  > PARTITIONED BY (year INT);
+
+
+[localhost:21000] > INSERT INTO airline_data.airlines
+                  > PARTITION (year)
+                  > SELECT
+                  >   month,
+                  >   day,
+                  >   dayofweek,
+                  >   dep_time,
+                  >   crs_dep_time,
+                  >   arr_time,
+                  >   crs_arr_time,
+                  >   carrier,
+                  >   flight_num,
+                  >   actual_elapsed_time,
+                  >   crs_elapsed_time,
+                  >   airtime,
+                  >   arrdelay,
+                  >   depdelay,
+                  >   origin,
+                  >   dest,
+                  >   distance,
+                  >   taxi_in,
+                  >   taxi_out,
+                  >   cancelled,
+                  >   cancellation_code,
+                  >   diverted,
+                  >   carrier_delay,
+                  >   weather_delay,
+                  >   nas_delay,
+                  >   security_delay,
+                  >   late_aircraft_delay,
+                  >   year
+                  > FROM airline_data.airlines_external;
+
+
+
+[localhost:21000] > compute incremental stats airlines;
++-------------------------------------------+
+| summary                                   |
++-------------------------------------------+
+| Updated 22 partition(s) and 27 column(s). |
++-------------------------------------------+
+[localhost:21000] > show table stats airlines;
++-------+-----------+--------+----------+--------------+------------+---------+-------------------+
+| year  | #Rows     | #Files | Size     | Bytes Cached | Cache Repl | Format  | Incremental stats |
++-------+-----------+--------+----------+--------------+------------+---------+-----
+| 1987  | 1311826   | 1      | 9.32MB   | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1988  | 5202096   | 1      | 37.04MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1989  | 5041200   | 1      | 36.25MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1990  | 5270893   | 1      | 38.39MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1991  | 5076925   | 1      | 37.23MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1992  | 5092157   | 1      | 36.85MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1993  | 5070501   | 1      | 37.16MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1994  | 5180048   | 1      | 38.31MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1995  | 5327435   | 1      | 53.14MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1996  | 5351983   | 1      | 53.64MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1997  | 5411843   | 1      | 54.41MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1998  | 5384721   | 1      | 54.01MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 1999  | 5527884   | 1      | 56.32MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 2000  | 5683047   | 1      | 58.15MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 2001  | 5967780   | 1      | 60.65MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 2002  | 5271359   | 1      | 57.99MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 2003  | 6488540   | 1      | 81.33MB  | NOT CACHED   | NOT CACHED | PARQUET | true
+| 2004  | 7129270   | 1      | 103.19MB | NOT CACHED   | NOT CACHED | PARQUET | true
+| 2005  | 7140596   | 1      | 102.61MB | NOT CACHED   | NOT CACHED | PARQUET | true
+| 2006  | 7141922   | 1      | 106.03MB | NOT CACHED   | NOT CACHED | PARQUET | true
+| 2007  | 7453215   | 1      | 112.15MB | NOT CACHED   | NOT CACHED | PARQUET | true
+| 2008  | 7009728   | 1      | 105.76MB | NOT CACHED   | NOT CACHED | PARQUET | true
+| Total | 123534969 | 22     | 1.30GB   | 0B           |            |         |
++-------+-----------+--------+----------+--------------+------------+---------+-----
+
+
+
+
+
+[localhost:21000] > select sum(airtime) from airlines_external;
++--------------+
+| sum(airtime) |
++--------------+
+| 8662859484   |
++--------------+
+Fetched 1 row(s) in 2.02s
+[localhost:21000] > select sum(airtime) from airlines;
++--------------+
+| sum(airtime) |
++--------------+
+| 8662859484   |
++--------------+
+Fetched 1 row(s) in 1.21s
+
+[localhost:21000] > select sum(airtime) from airlines_external where year = 2005;
++--------------+
+| sum(airtime) |
++--------------+
+| 708204026    |
++--------------+
+Fetched 1 row(s) in 2.61s
+[localhost:21000] > select sum(airtime) from airlines where year = 2005;
++--------------+
+| sum(airtime) |
++--------------+
+| 708204026    |
++--------------+
+Fetched 1 row(s) in 1.19s
+
+[localhost:21000] > select sum(airtime) from airlines_external where dayofweek = 1;
++--------------+
+| sum(airtime) |
++--------------+
+| 1264945051   |
++--------------+
+Fetched 1 row(s) in 2.82s
+[localhost:21000] > select sum(airtime) from airlines where dayofweek = 1;
++--------------+
+| sum(airtime) |
++--------------+
+| 1264945051   |
++--------------+
+Fetched 1 row(s) in 1.61s
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+[localhost:21000] > select sum(airtime) from airlines_external;
++--------------+
+| sum(airtime) |
++--------------+
+| 8662859484   |
++--------------+
+Fetched 1 row(s) in 2.02s
+[localhost:21000] > select sum(airtime) from airlines;
++--------------+
+| sum(airtime) |
++--------------+
+| 8662859484   |
++--------------+
+Fetched 1 row(s) in 1.21s
+ 
+[localhost:21000] > select sum(airtime) from airlines_external where year = 2005;
++--------------+
+| sum(airtime) |
++--------------+
+| 708204026    |
++--------------+
+Fetched 1 row(s) in 2.61s
+[localhost:21000] > select sum(airtime) from airlines where year = 2005;
++--------------+
+| sum(airtime) |
++--------------+
+| 708204026    |
++--------------+
+Fetched 1 row(s) in 1.19s
+ 
+[localhost:21000] > select sum(airtime) from airlines_external where dayofweek = 1;
++--------------+
+| sum(airtime) |
++--------------+
+| 1264945051   |
++--------------+
+Fetched 1 row(s) in 2.82s
+[localhost:21000] > select sum(airtime) from airlines where dayofweek = 1;
++--------------+
+| sum(airtime) |
++--------------+
+| 1264945051   |
++--------------+
+Fetched 1 row(s) in 1.61s
+
+[localhost:21000] > select dayofweek, avg(airtime) from airlines
+                  > group by dayofweek order by dayofweek;
++-----------+-------------------+
+| dayofweek | avg(airtime)      |
++-----------+-------------------+
+| 1         | 102.1560425016671 |
+| 2         | 102.1582931538807 |
+| 3         | 102.2170009256653 |
+| 4         | 102.37477661846   |
+| 5         | 102.2697358763511 |
+| 6         | 105.3627448363705 |
+| 7         | 103.4144351202054 |
++-----------+-------------------+
+
+
+
+
+
+[localhost:21000] > select year, dayofweek, avg(airtime) from airlines
+                  > group by year, dayofweek order by year desc, dayofweek;
++------+-----------+-------------------+
+| year | dayofweek | avg(airtime)      |
++------+-----------+-------------------+
+| 2008 | 1         | 103.1821651651355 |
+| 2008 | 2         | 103.2149301386094 |
+| 2008 | 3         | 103.0585076622796 |
+| 2008 | 4         | 103.4671383539038 |
+| 2008 | 5         | 103.5575385182659 |
+| 2008 | 6         | 107.4006306562128 |
+| 2008 | 7         | 104.8648851041755 |
+| 2007 | 1         | 102.2196114337825 |
+| 2007 | 2         | 101.9317791906348 |
+| 2007 | 3         | 102.0964767689043 |
+| 2007 | 4         | 102.6215927201686 |
+| 2007 | 5         | 102.4289399000661 |
+| 2007 | 6         | 105.1477448215756 |
+| 2007 | 7         | 103.6305945644095 |
+...
+| 1996 | 1         | 99.33860750862108 |
+| 1996 | 2         | 99.54225446396656 |
+| 1996 | 3         | 99.41129336113134 |
+| 1996 | 4         | 99.5110373340348  |
+| 1996 | 5         | 99.22120745027595 |
+| 1996 | 6         | 101.1717447111921 |
+| 1996 | 7         | 99.95410136133704 |
+| 1995 | 1         | 96.93779698300494 |
+| 1995 | 2         | 96.93458674589712 |
+| 1995 | 3         | 97.00972311337051 |
+| 1995 | 4         | 96.90843832024412 |
+| 1995 | 5         | 96.78382115425562 |
+| 1995 | 6         | 98.70872826057003 |
+| 1995 | 7         | 97.85570478374616 |
+| 1994 | 1         | NULL              |
+| 1994 | 2         | NULL              |
+| 1994 | 3         | NULL              |
+...
+| 1987 | 5         | NULL              |
+| 1987 | 6         | NULL              |
+| 1987 | 7         | NULL              |
++------+-----------+-------------------+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+[localhost:21000] > select year, dayofweek, avg(airtime) from airlines
+                  > group by year, dayofweek order by year desc, dayofweek;
++------+-----------+-------------------+
+| year | dayofweek | avg(airtime)      |
++------+-----------+-------------------+
+| 2008 | 1         | 103.1821651651355 |
+| 2008 | 2         | 103.2149301386094 |
+| 2008 | 3         | 103.0585076622796 |
+| 2008 | 4         | 103.4671383539038 |
+| 2008 | 5         | 103.5575385182659 |
+| 2008 | 6         | 107.4006306562128 |
+| 2008 | 7         | 104.8648851041755 |
+| 2007 | 1         | 102.2196114337825 |
+| 2007 | 2         | 101.9317791906348 |
+| 2007 | 3         | 102.0964767689043 |
+| 2007 | 4         | 102.6215927201686 |
+| 2007 | 5         | 102.4289399000661 |
+| 2007 | 6         | 105.1477448215756 |
+| 2007 | 7         | 103.6305945644095 |
+...
+| 1996 | 1         | 99.33860750862108 |
+| 1996 | 2         | 99.54225446396656 |
+| 1996 | 3         | 99.41129336113134 |
+| 1996 | 4         | 99.5110373340348  |
+| 1996 | 5         | 99.22120745027595 |
+| 1996 | 6         | 101.1717447111921 |
+| 1996 | 7         | 99.95410136133704 |
+| 1995 | 1         | 96.93779698300494 |
+| 1995 | 2         | 96.93458674589712 |
+| 1995 | 3         | 97.00972311337051 |
+| 1995 | 4         | 96.90843832024412 |
+| 1995 | 5         | 96.78382115425562 |
+| 1995 | 6         | 98.70872826057003 |
+| 1995 | 7         | 97.85570478374616 |
+| 1994 | 1         | NULL              |
+| 1994 | 2         | NULL              |
+| 1994 | 3         | NULL              |
+...
+| 1987 | 5         | NULL              |
+| 1987 | 6         | NULL              |
+| 1987 | 7         | NULL              |
++------+-----------+-------------------+

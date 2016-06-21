@@ -47,7 +47,73 @@ mvn -version
 
 ### Spark
 
-### Impala
+```sh
+$ spark-shell
+```
+
+```sh
+$ pyspark
+```
+
+### Impala / Hive
+
+- Hive
+
+```sh
+$ beeline -u jdbc:hive2://localhost:10000
+```
+
+- Impala
+
+```sh
+$ impala-shell
+```
+
+- Install MYSQL
+```sh
+$ sudo yum install mysql-server
+```
+
+- Then to start MYSQL server
+```sh
+$sudo service mysqld start
+```
+
+- To log in to MySQL as the Root User
+```sh
+$ mysql -u root
+```
+
+- Set the root user password for all local domains
+```sh
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('new-password');
+SET PASSWORD FOR 'root'@'localhost.localdomain' = PASSWORD('new-password');
+SET PASSWORD FOR 'root'@'127.0.0.1' = PASSWORD('new-password');
+```
+
+Populate DB with script
+
+```sh
+mysql> source dbsetup.sql
+```
+- Verify
+
+```sh
+mysql> use dualcore
+Database changed
+mysql> show tables;
++--------------------+
+| Tables_in_dualcore |
++--------------------+
+| customers          |
+| employees          |
+| order_details      |
+| orders             |
+| products           |
+| suppliers          |
++--------------------+
+```
+
 
 ### Cloudera Search
 

@@ -1,0 +1,4 @@
+$ sqoop import \
+--connect jdbc:mysql://localhost/dualcore \
+--username root \
+--table employees --m 1
