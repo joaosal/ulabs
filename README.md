@@ -43,7 +43,19 @@ Verify everything is working with the following command
 ```sh
 mvn -version
 ```
+### Hadoop
 
+Create directory in HDFS
+
+```sh
+$ hadoop fs -mkdir <folder>
+```
+
+Copy file to HDFS
+
+```sh
+$ hadoop fs -put <file> <directory>
+```
 
 ### Spark
 
@@ -123,6 +135,11 @@ mysql> show tables;
  - Write Tests
  - Rethink Github Save
  - Add Code Comments
+
+Books
+----
+
+[Hadoop Definitive Guide 3rd](https://www.dropbox.com/s/d76kku0iqb7kdqx/OReilly.Hadoop.The.Definitive.Guide.3rd.Edition.May.2012.RETAIL.eBook-ELOHiM.pdf?dl=0)
 
 License
 ----
