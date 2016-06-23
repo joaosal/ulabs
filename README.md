@@ -129,6 +129,39 @@ mysql> show tables;
 
 ### Cloudera Search
 
+Generate base folder
+
+```sh
+$ solrctl instancedir --generate car_listing
+```
+
+Register collection
+
+```sh
+$ solrctl instancedir --create car_listing_collection car_listing
+```
+
+Create collection
+
+```sh
+solrctl collection --create car_listing_collection
+```
+
+Indexing
+
+```sh
+hadoop jar /usr/lib/solr/contrib/mr/search-mr-*-job.jar \
+    org.apache.solr.hadoop.MapReduceIndexerTool \
+    -D 'mapred.child.java.opts=-Xmx500m' \
+    --zk-host localhost:2181/solr \
+    --collection "$COLL_NAME" \
+    --morphline-file "$SCRIPT_DIR/morphlines.conf" \
+    --go-live \
+    --log4j "$SCRIPT_DIR/log4j.properties" \
+    --output-dir "hdfs://localhost:8020/$OUT_DIR" \
+    "hdfs://localhost:8020/$IN_DIR"
+```
+
 
 ### Todos
 
