@@ -1,4 +1,7 @@
-sqoop import --verbose --connect 'jdbc:mysql://localhost;dualcore' --username root --password cloudera --table employees --as-avrodatafile --target-dir /user/root/raw/employees --split-by emp_id
+sqoop import --verbose --connect 'jdbc:mysql://localhost/dualcore' --username root --password cloudera --table employees --as-avrodatafile --target-dir /user/root/raw/employees --split-by emp_id
+
+sqoop import-all-tables --connect 'jdbc:mysql://localhost/dualcore' --username root --password cloudera --as-avrodatafile --warehouse-dir /user/cloudera/bd/ --m 1
+
 
 CREATE EXTERNAL TABLE employees
  STORED AS AVRO
